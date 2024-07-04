@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(192, 172, 149);
+}
+
+.border-ten{
+    border: 1px black solid;
+    border-radius: 10px;
+}
+main{
+    width: 1300px;
+    margin: 0.5em auto 0.5em auto;
+    background-color: rgb(155, 130, 97);
+    border-radius: 12px;
+    box-shadow: 0px 0px 8px rgba(54, 30, 3, 0.795);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+}
+.sub-div{
+    width: 33.3%;
+    height: 10em;
+    background-color: rgb(172, 162, 132);
+    margin: 0.5em;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5px rgba(129, 99, 65, 0.795);
+}
+h2{
+    text-align: center;
+    color: rgb(82, 33, 4);
+}
+img{
+    display : block;
+    width : 75%;
+    height: auto;
+    margin : 1em auto 0.2em auto;
+    border-radius: 12px;
+
+}
+.image-container{
+    width : 15em;
+    border-radius: 3%;
+}
+p{
+    font-size: 1em;
+    padding: 0.5em;
+}
+h3{
+    text-align: center;
+    color: rgb(114, 78, 11);
+}
+.dark-btn{
+    background-color: rgb(68, 20, 145);
+    height: 2em;
+    width: 2em;
+    color: aliceblue;
+    border-radius : 50%;
+    border: 2px white solid;
+}
+.lite-btn{
+    background-color: rgb(253, 207, 137);
+    height: 2em;
+    width: 2em;
+    color: rgb(65, 49, 5);  
+    border-radius : 50%;
+    border: 2px white solid;
+}
+.default-btn{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(163, 162, 161);
+    color: rgb(31, 31, 30); 
+    border-radius : 50%; 
+    border: 2px white solid;
+}
+.controls{
+    margin-bottom: 0.5em;
+}

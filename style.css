@@ -1,0 +1,87 @@
+body.body-lite{
+    background-color: rgb(233, 233, 233);
+}
+
+.border-ten{
+    border: 1px rgb(133, 131, 131) solid;
+    border-radius: 10px;
+}
+main{
+    width: 1300px;
+    margin: 0.5em auto 0.5em auto;
+	background-color: rgb(194, 194, 194);
+	border-radius: 3%;
+	border-radius: 1%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em;
+}
+.sub-div{
+    width: 33.3%;
+    height: 10em;
+    background-color: rgb(219, 219, 219);
+    margin: 0.5em;
+    margin: 0.5em;
+    border-radius: 3%;
+}
+h2{
+    text-align: center;
+    color: rgb(47, 16, 160);
+}
+h3{
+    text-align: center;
+    color: rgb(184, 112, 6);
+}
+img{
+    display : block;
+    width : 75%;
+    height: auto;
+    margin : 1em auto 0.2em auto;
+    border-radius : 3%;
+
+}
+.image-container{
+    width : 15em;
+    border-radius: 3%;
+}
+p{
+    font-size: 1em;
+    padding: 0.5em;
+}
+.dark-btn{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(68, 20, 145);
+    color: aliceblue;
+    border-radius : 50%;
+    border: 2px white solid;
+}
+.lite-btn{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(253, 207, 137);
+    color: rgb(65, 49, 5); 
+    border-radius : 50%; 
+    border: 2px white solid;
+}
+.default-btn{
+    height: 2em;
+    width: 2em;
+    background-color: rgb(163, 162, 161);
+    color: rgb(31, 31, 30); 
+    border-radius : 50%; 
+    border: 2px white solid;
+}
+.controls{
+    margin-bottom: 0.5em;
+}
